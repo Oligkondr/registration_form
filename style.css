@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.system {
+    display: flex;
+}
+
+body {
+    font-family: Arial, serif;
+}
+
+.left {
+    display: flex;
+    background-color: #f3f5f7;
+    width: 30%;
+    height: 100vh;
+    padding: 100px 40px;
+}
+
+.right {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.right_content {
+    margin-top: 100px;
+    max-width: 600px;
+}
+
+.right_content h1 {
+    margin-bottom: 40px;
+}
+
+.description h1 {
+    margin-bottom: 40px;
+}
+
+.text-input * {
+    display: block;
+}
+
+label {
+    padding: 6px 0;
+}
+
+.input-row {
+    margin-top: 15px;
+}
+
+.input-group {
+    margin-top: 30px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+select {
+    width: 250px;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 6px;
+}
